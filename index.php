@@ -31,7 +31,7 @@ if (isset($_GET['lunghezza']) && is_numeric($_GET['lunghezza'])) {
         <h1>Generatore Password Casuale</h1>
         <form action="" method="GET"  class="my-4">
             Lunghezza della password: <input type="number" name="lunghezza" value="<?php echo $lunghezza_password; ?>">
-            <input type="submit" value="Genera Password">
+            <input type="submit" value="Genera Password" class="btn btn-primary">
         </form>
         <?php if (isset($password_generata)): ?>
             <h2>Password Generata:</h2>
